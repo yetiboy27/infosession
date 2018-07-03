@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><!-- StartFormCustomCSS --><style type="text/css" media="screen"> /* RESET */ .elq-form * {  margin: 0;  padding: 0;}.elq-form input, textarea {	-webkit-box-sizing:content-box;	-moz-box-sizing:content-box;	box-sizing:content-box;} .elq-form button,input[type=reset],input[type=button],input[type=submit],input[type=checkbox],input[type=radio],select {	-webkit-box-sizing:border-box;	-moz-box-sizing:border-box;	box-sizing:border-box;}/* GENERIC */.elq-form input {	height: 16px;	line-height: 16px;}.elq-form .item-padding {	padding:6px 5px 9px 9px;}.elq-form .pp-group {	padding:0px 5px 0px 9px;}.elq-form .pp-field {	padding:6px 0px 9px 0px;}.elq-form .field-wrapper.individual {    float: left;    width: 100%;	clear: both;}.elq-form .field-p {	position: relative;	margin: 0;	padding: 0;}.elq-form .zIndex-fix {	position: absolute; 	z-index: 1; 	top: 0; 	left: 0; 	right: 0; 	bottom: 0;}.elq-form .field-design {	position:absolute; 	z-index:2; 	top:0; 	left:0; 	right:0; 	bottom:0; 	margin:0; 	padding:0;}.elq-form .no-fields-prompt {	float: left;	width: 100%;	height: 150px;	padding-top: 50px;	clear: both;}/* SECTION BREAKS */.elq-form .section-break {	float:left;	width: 97%;	margin-right:2%;	margin-left:1%;	padding-bottom:6px;}.elq-form .section-break .heading {	width:100%;	font-weight: bold;	margin:0;	padding:0;}/* LABEL */.elq-form .required {	color: red !important;	display: inline;	float: none;	font-weight: bold;	margin: 0pt 0pt 0pt;	padding: 0pt 0pt 0pt;}/* FIELD GROUP */.elq-form .field-group {	float: left;	clear: both;}.elq-form .field-group.large {	width:100%;}.elq-form .field-group.medium {	width:51%;}.elq-form .field-group.small {	width:31%;}.elq-form .field-group .label {	float:left;	width:97%;	margin-right:2%;	margin-left:1%;	padding-bottom:6px;	font-weight: bold;}.elq-form .field-group .field-style {	float: left;}.elq-form .progressive-profile .pp-inner {	float: left;	clear: both;}.elq-form .progressive-profile .pp-inner.large {	width:100%;}.elq-form .progressive-profile .pp-inner.medium {	width:51%;}.elq-form .progressive-profile .pp-inner.small {	width:31%;}/* RADIO */.elq-form .radio-option {	display: inline-block;}.elq-form .radio-option .label {	display:block;	float:left;	padding-right:10px;	padding-left:22px;	text-indent:-22px;}.elq-form .radio-option .input {	vertical-align:middle;	margin-right:7px;}.elq-form .radio-option .inner {	vertical-align:middle;}/* CHECKBOX */.elq-form .checkbox-span {	display:inline-block;}.elq-form .checkbox-label {	margin-left:4px;}/* INPUT */.elq-form .accept-default {	width:100%;}/* SIZING */.elq-form .field-style {	margin-right:2%;	margin-left:2%;}.elq-form .field-style._25 {	width:21%;}.elq-form .field-style._50 {	width:46%;}.elq-form .field-style._50_left {	clear:left;	width:46%;}.elq-form .field-style._75 {	width:71%;}.elq-form .field-style._100 {	width:96%;}.elq-form .field-size-top-small {	width:30%;}.elq-form .field-size-top-medium {	width:75%;}.elq-form .field-size-top-large {	width:100%;}.elq-form .field-size-left-small {	width:21%;}.elq-form .field-size-left-medium {	width:46%;}.elq-form .field-size-left-large {	width:60%;}/* INSTRUCTIONS */.elq-form .instructions.default {	color:#444444;	display:block;	font-size:10px;	padding:6px 0pt 3px;}.elq-form .instructions.group {	float:left;	width:97%;	margin-right:2%;	margin-left:2%;	padding:6px 0pt 3px;	color:#444444;	display:block;	font-size:10px;}.elq-form .instructions.left-single {	margin:0 0 0 33%;}.elq-form .instructions-other {   margin:0;}/* POSITIONING */.elq-form .label-position.left {	display:block;    line-height:150%;    padding:1px 0pt 3px;    float:left;    width:31%;    margin:0pt 15px 0pt 0pt;    word-wrap:break-word;}.elq-form .label-position.top {	display:block;    line-height:150%;    padding:1px 0pt 3px;    white-space:nowrap;}.elq-form .label-position.alignment-left {	text-align: left;}.elq-form .label-position.alignment-right {	text-align: right;}/* LIST ORDER */.elq-form .list-order {	display:block;}.elq-form .list-order.oneColumn {	margin:0pt 7px 0pt 0pt;	width:100%;	clear:both;}.elq-form .list-order.twoColumn {	float:left;	margin:0pt 7px 0pt 0pt;	width:38%;}.elq-form .list-order.threeColumn {	float:left;	margin:0pt 7px 0pt 0pt;	width:30%;}.elq-form .list-order.oneColumnLeft {	float:left;	margin:0pt 7px 0pt 0pt;	width:100%;}.elq-form .list-order.twoColumnLeft {	float:left;	margin:0pt 7px 0pt 0pt;	width:38%;}.elq-form .list-order.threeColumnLeft {	float:left;	margin:0pt 7px 0pt 0pt;	width:30%;}/* GRID STYLE */.elq-form .grid-style {      display:inline;      float:left;      margin-left:2%;      margin-right:2%;}.elq-form .grid-style._25 {      width:21%;}.elq-form .grid-style._50 {      width:46%;}.elq-form .grid-style._75 {      width:71%;}.elq-form .grid-style._100 {      width:96%;  }</style><!-- EndFormCustomCSS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="language" content="English">    
+    <link rel="shortcut icon" href="http://regis.edu/favicon.ico">
+  
+
+    <title>Regis University, Information Sessions</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans: 300,400,800,600" rel="stylesheet" type="text/css">   
+    <link href="https://cdn.regis.edu/css/infoSessions_lp_style.css" rel="stylesheet">
+    <style type="text/css">
+          .showAtDate { display: none; }
+          .tab-pane.active {
+            border: 2px solid #F2C833;
+            border-radius: 0 10px 10px 10px;
+            padding: 10px;
+          }
+          .nav-tabs>li>a:hover {
+            border-color: #eee #eee #fcf0c7;
+          }
+          .nav>li>a:hover, .nav>li>a:focus {
+            text-decoration:none;
+            background-color: #fcf0c7;
+          }
+          a.panelLink {
+            text-decoration: none;
+            font-weight: bold;
+          }
+          a.panelLink:hover {
+            text-decoration: underline;
+          }
+
+          img.openClose {            
+            margin-right:20px;
+          }
+
+          a[aria-expanded="true"] img.openClose {
+            -ms-transform: rotate(180deg); /* IE 9 */
+            -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+            transform: rotate(180deg);            
+          }          
+          
+      </style>
+      <link rel="stylesheet" href="https://cdn.regis.edu/css/bootstrap-responsive-tabs.css">
+      
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 10]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <link href="http://externalcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+    <!--[endif]---->
+  
+    <!--[if lte IE 8]>
+    <style type="text/css">
+
+        .container.info {
+            max-width:920px;    
+        }
+
+        .container.info .best-colleges {
+            margin-top: 20px;
+        }
+    </style>
+    <![endif]-->
+
+    <script type="text/javascript" src="https://cdn.regis.edu/javascript/modernizr/modernizr.js"></script>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    
+</head>
+
+<body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCGSLP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WCGSLP');</script>
+<!-- End Google Tag Manager -->  
+
+
+<header class="page-header">
+    <div class="banner hidden-xs">
+         
+    </div>
+    <div class="banner-mobile visible-xs">
+        <div class="col-xs-7 info">
+            <img class="" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Bd93aff9d-bfd9-47c2-89e2-3f35fe1eedd4%7D_mobile-logo_blue.png" alt="Regis University"><br>
+            <a href="tel:+18009447667"></a>
+            <a class="email" href="mailto:ruadmissions@regis.edu">ruadmissions@regis.edu</a>
+        </div>        
+    </div>
+    <div class="container logo hidden-xs">
+        <div class="col-sm-12 col-md-6 logo">
+            <img class="" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Be5e94f47-885c-4365-8a71-50a15bafa3f7%7D_logo-horizontal.png" alt="Regis University">
+        </div>
+        <nav class="col-sm-12 col-md-6" role="external">
+            <!--<a href="#"><i class="fa fa-comment-o"></i> Chat now</a>-->
+            <a href="tel:+18005555555">1.800.944.7667</a>
+            <a class="email" href="mailto:ruadmissions@regis.edu">ruadmissions@regis.edu</a>
+        </nav>
+    </div>
+
+    <div class="container headerGraphic default">       
+
+        <div class="col-md-12">
+            <img class="" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7bed03ab32-fd6f-471b-bbc9-86b65b606f66%7d_info_session_banner960x278_Rev2.jpg">
+        </div>        
+    </div>
+</header>
+<nav>
+    <div class="container">
+         <div class="col-xs-12">
+           <h1 class="">Upcoming Info Sessions &amp; Special Events</h1>
+        </div>   
+      </div>     
+</nav>
+
+<div class="container main" role="main">  
+        <div class="row">
+            <div class="col-md-8">
+              
+                <p style="margin-top: 20px;">
+                  Join us for an info session or attend an event to find out how Regis helps match your passions to a program that’ll help propel your career forward. You’ll learn about things like:
+                </p>
+                  <ul style="margin-bottom: 20px;">
+                    <li>Career pathways available with your educational pursuit</li>
+                    <li>Length of program(s) and class schedules</li>
+                    <li>The benefits of a values-based Jesuit education</li>
+                    <li>Tuition, fees, and options to pay for college</li>
+                    <li>Admissions requirements and next steps to apply</li>                    
+                  </ul>
+             
+
+            <!-- Tab panes -->
+            <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                   <h4 class="panel-title"><a data-toggle="collapse" href="#collapse1" class="panelLink">
+                   <img class="openClose" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Bdc7cc374-e71a-40e2-9f4b-a5622245548c%7D_arrow-circle-o-down.png" alt="open/close">Business
+                  </a></h4>  
+                </div>
+                  <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">                      
+                      <div class="event_info"><h5>All times listed are for the mountain time zone.</h5></div>
+                       <div class="showAtDate event_info bottom_event" data-limit="2018-12-19T12:30:00">
+                          <h5>No business information sessions currently scheduled.</h5>
+                          <p>Please check back soon!
+                          </p>
+                       </div>              
+                       <!--<div class="showAtDate event_info bottom_event" data-limit="2017-06-16T12:30:00">
+                          <h5>Specialty Master’s Degree Programs in the College of Business &amp; Economics</h5>
+                          <p>Thursday, June 15, 12 p.m.<br>
+                             Virtual online session                             
+                          </p>
+                       </div> -->
+                    </div><!-- panel-body -->
+                  </div><!-- end collapse1 -->
+              </div><!-- end panel panel-default -->
+              </div><!-- End Business panel -->
+              <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse2" class="panelLink"><img class="openClose" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Bdc7cc374-e71a-40e2-9f4b-a5622245548c%7D_arrow-circle-o-down.png" alt="open/close">Computer Information Sciences</a>
+                  </h4>  
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">                     
+                      <div class="event_info"><h5>All times listed are for the mountain time zone.</h5></div>
+                       <!-- <div class="showAtDate event_info bottom_event" data-limit="2018-05-19T12:30:00">
+                        <h5>No computer information science information sessions currently scheduled.</h5>
+                        <p>Please check back soon!
+                        </p>
+                      </div> -->
+                      <div class="event_info" style="padding: 5px 0;">
+                        <h5>International Student Information Session</h5> 
+                        <h5>VIRTUAL SESSIONS</h5>
+                        <p>Please download <a href="https://zoom.us/download" target="_blank">ZOOM</a> prior to your virtual session</p>
+                      </div>                    
+                    <div class="showAtDate event_info bottom_event" data-limit="2018-07-12T12:00:00">
+                        <p>Wednesday, July 11, 12:00 p.m.-1:00 p.m.<br>
+                           Click <a href="https://regis.zoom.us/j/140110895" target="_blank">here</a> to join this session virtually via <a href="https://zoom.us/download?" target="_blank">ZOOM</a>.
+                         </p>
+                      </div>                      
+                      <!-- <div class="event_info" style="padding: 5px 0;">
+                        <h5>B.S. Computer Science, B.S. Information Technology, &amp; B.S. Computer Information Systems</h5> 
+                        <h5>VIRTUAL SESSIONS</h5>
+                        <p>Please download <a href="https://zoom.us/download" target="_blank">ZOOM</a> prior to your virtual session</p>
+                      </div>
+                    <div class="showAtDate event_info bottom_event" data-limit="2018-03-28T12:00:00">
+                      <p>Tuesday, March 27, 6:00 - 7:00 p.m.<br>
+                         Click <a href="https://regis.zoom.us/j/494924648" target="_blank">here</a> to join this session virtually via <a href="https://zoom.us/download" target="_blank">ZOOM</a>.
+                       </p>
+                    </div>
+                    <div class="showAtDate event_info bottom_event" data-limit="2018-03-29T12:00:00">
+                        <p>Wednesday, March 28, 12:00 - 1:00 p.m.<br>
+                           Click <a href="https://regis.zoom.us/j/460661656" target="_blank">here</a> to join this session virtually via <a href="https://zoom.us/download" target="_blank">ZOOM</a>.
+                         </p>
+                      </div> -->
+                  </div><!-- panel-body -->
+                </div><!-- end collapse1 -->
+              </div><!-- end panel panel-default -->
+              </div><!-- End Computer Science Panel -->
+              <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse3" class="panelLink"><img class="openClose" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Bdc7cc374-e71a-40e2-9f4b-a5622245548c%7D_arrow-circle-o-down.png" alt="open/close">Counseling</a>
+                  </h4>  
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body">
+              
+                <div class="event_info"><h5>All times listed are for the mountain time zone.</h5></div>
+                <div class="event_info" style="padding-bottom: 12px;">
+                  <h5>M.A. Counseling<br>
+                    M.A. Marriage and Family Therapy
+                  </h5>
+
+                     <p>All sessions will be held at:</p>
+                     <p>Thornton Campus<br>                     
+                     450 E 84th Ave<br>
+                     Thornton, CO 80229</p>
+                     <h5>Please RSVP for ONE of the following dates:</h5>
+                     <!-- <p>No sessions currently scheduled. Check back for future sessions.</p> -->
+                     <h5 style="margin-bottom: 15px">If you would like to RSVP within 24 hours of an event, please contact Kendra Docker directly at <a href="mailto:kdocker@regis.edu">kdocker@regis.edu</a>.</h5>                     
+                     <p class="showAtDate event_info" data-limit="2018-07-17T01:00:00">Monday, July 16, 9 a.m.</p>
+                     <p class="showAtDate event_info" data-limit="2018-07-17T01:00:00">Monday, July 16, 5:30 p.m.</p>
+                     <p class="showAtDate event_info" data-limit="2018-08-21T01:00:00">Monday, August 20, 9 a.m.</p>
+                     <p class="showAtDate event_info" data-limit="2018-08-21T01:00:00">Monday, August 20, 5:30 p.m.</p>                     
+                </div>                
+                
+                <!-- <div class="showAtDate event_info bottom_event" data-limit="2016-10-01T01:00:00">
+                  <h5>M.A. Marriage and Family Therapy at Colorado Springs Campus</h5>
+                     <p style="margin-top:10px">                    
+                      Virtual Information Session</p>
+                     <p>Wednesday, Oct. 12, 12 p.m.</p>
+                </div> -->
+              </div><!-- panel-body -->
+              </div><!-- end collapse1 -->
+              </div><!-- end panel panel-default -->
+              </div><!-- End Counseling Panel -->
+              
+              <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse4" class="panelLink"><img class="openClose" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Bdc7cc374-e71a-40e2-9f4b-a5622245548c%7D_arrow-circle-o-down.png" alt="open/close">Education &amp; Fine Arts</a>
+                  </h4>  
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                   <div class="event_info"><h5>All times listed are for the mountain time zone.</h5></div>
+                       <div class="showAtDate event_info bottom_event" data-limit="2019-05-19T12:30:00">
+                        <h5>No education &amp; fine arts information sessions currently scheduled.</h5>
+                        <p>Please check back soon!
+                        </p>
+                      </div>
+                      
+                      <!-- <div class="showAtDate event_info bottom_event" data-limit="2018-04-08T01:00:00">
+                        <h5>Mile-High MFA in Action: Open  Writing Studio</h5>
+                        <p><span class="showAtDate" data-limit="2018-04-08T01:00:00">                       
+                           Saturday, April 7, 2018 1-3 p.m.<br>
+                           Felix Pomponio Family Science Center<br>
+                           Regis University<br>
+                           3333 Regis Boulevard<br>
+                           Denver, Colorado 80221<br>                       
+      
+                           <a href="http://events.regis.edu/writingstudio" target="_blank">http://events.regis.edu/writingstudio</a>
+                        </p>
+                      </div>
+                   <div class="showAtDate event_info" data-limit="2017-11-02T12:00:00">
+                    <h5 class="" style="margin-bottom: 5px">M.Ed Educational Leadership (Principal Licensure)</h5>
+                    <p class="showAtDate" data-limit="2017-10-04T12:00:00">
+                       Tuesday, October 3, 4:30 p.m.<br>
+                       Virtual online session
+                     </p>
+                     <p class="showAtDate" data-limit="2017-11-02T12:00:00">
+                      Wednesday, November 1, 6:00 p.m.<br>
+                       3333 Regis Boulevard<br>
+                       Room TBD<br>
+                       Denver, CO 80221
+                     </p>
+                   </div>  -->
+                   
+                   <!-- <div class="showAtDate event_info" data-limit="2017-09-28T12:00:00">
+                    <h5 class="">MFA in Creative Writing Information Session</h5>
+                    <p>Thursday, September 27, 6 p.m.<br>
+                       3333 Regis Boulevard<br>
+                       Clarke Hall, Room 307<br>
+                       Denver, CO 80221
+                     </p>
+                   </div> -->
+
+                
+              </div><!-- panel-body -->
+              </div><!-- end collapse1 -->
+              </div><!-- end panel panel-default -->
+              </div><!-- End Education and Fine Arts Panel -->
+              
+                <div class="panel-group">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapse5" class="panelLink"><img class="openClose" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Bdc7cc374-e71a-40e2-9f4b-a5622245548c%7D_arrow-circle-o-down.png" alt="open/close">Health Care</a>
+                    </h4>  
+                  </div>
+                  <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                <div class="event_info" style="margin-bottom: 30px;"><h5>All times listed are for the mountain time zone.</h5></div>
+                
+
+              <div class="event_info" style="padding-bottom: 4px;">
+                  <h5>B.S. in Nursing (Accelerated, Transfer Traditional, and CHOICE) </h5>
+                    <h5>IN-PERSON SESSIONS: (NO RSVP REQUIRED)</h5>  
+                     <p>All sessions will be held at:<br>                      
+                     3333 Regis Boulevard<br>
+                     Peter Claver Hall&#42; (Room specified below)<br>
+                     Denver, CO 80221<br>
+                     *Parking closest to Claver Hall is Lot 4. Campus map can be found <a href="http://www.regis.edu/Visit-Gateway/Take-A-Virtual-Tour.aspx?elqTrackId=5daaaa1a2d86454dad5ce91a0efc3397" target="_blank">HERE</a>. </p>                     
+                </div>                
+                
+                  <div class="showAtDate event_info bottom_event" data-limit="2018-07-24T12:00:00">
+                    <p>Monday, July 23, 5:30 p.m. (Room 315)</p>
+                  </div>
+
+               <div class="event_info" style="padding: 5px 0;">
+                    <h5>B.S. in Nursing (Accelerated, Transfer Traditional, and CHOICE) </h5> 
+                  <h5>VIRTUAL SESSIONS</h5>
+                  <p>Please download <a href="https://zoom.us/download?elqTrackId=d789bfb832dc4054a38e802a9c42fb36">ZOOM</a> prior to your virtual session</p>
+                </div> 
+                  <div class="showAtDate event_info bottom_event" data-limit="2018-07-19T12:00:00">
+                    <p>Thursday, July 19, 1:00 p.m.<br>
+                       Click <a href="https://regis.zoom.us/j/510212161?elqTrackId=5832c5617cba4e1a91d307faa2ab9c21">here</a> to join this session virtually via <a href="https://zoom.us/download?elqTrackId=9235a58f23f24212a57376cec5265fb2">ZOOM</a>.
+                     </p>
+                  </div>
+                
+                  <div class="showAtDate event_info bottom_event" data-limit="2018-06-29T01:00:00">
+                    <h5 style="margin-top: 25px;">The Regis Pharmacy Experience – PharmD Workshops for Preparing your Application for Success</h5>
+                    <p>                       
+                       Thursday, June 28, 2018  3 - 7:30 p.m.<br>
+                       Regis University<br>
+                       North West Denver Campus<br>
+                       <span style="margin-bottom: 8px; display: inline-block">Peter Claver Hall, 309</span><br>
+                       <a href="https://events.regis.edu/pharmacyexperience" target="_blank">https://events.regis.edu/pharmacyexperience</a>
+                    </p>
+                  </div>
+                  <div class="showAtDate event_info bottom_event" data-limit="2018-07-11T01:00:00">
+                    <h5 style="margin-top: 25px;">The Regis Pharmacy Experience – PharmD Workshops for Preparing your Application for Success ( VIRTUAL SESSIONS )</h5>                    
+                    
+                     <p data-limit="2018-07-11T01:00:00">                       
+                        Tuesday, July 10, 2018  5:30 - 6:30 p.m.<br>
+                        Virtual Session                       
+                     </p>
+                     <p data-limit="2018-08-08T01:00:00">                       
+                        Tuesday, August 7, 2018  12:30 - 1:30 p.m.<br>
+                        Virtual Session                       
+                     </p>
+                  </div>
+
+                  <div class="showAtDate event_info bottom_event" data-limit="2018-08-11T01:00:00">
+                    <h5 style="margin-top: 25px;">The Regis Pharmacy Experience – PharmD Workshops for Preparing your Application for Success</h5>
+                    <p>                       
+                       Friday, August 10, 2018  9 a.m. - 12:30 p.m.<br>
+                       Regis University<br>
+                       North West Denver Campus<br>
+                       <span style="margin-bottom: 8px; display: inline-block">Peter Claver Hall, 309</span><br>
+                       <a href="https://events.regis.edu/pharmacyexperience" target="_blank">https://events.regis.edu/pharmacyexperience</a>
+                    </p>
+                  </div>
+
+                <div class="event_info" style="padding: 5px 0;">
+                    <h5>Doctor of Physical Therapy</h5> 
+                  <h5>VIRTUAL SESSIONS</h5>
+                  <p>Please RSVP for ONE of the following dates. Limited to the first 100 participants.</p>
+                  <p>All sessions online.</p>
+                  <p>Please download <a href="https://zoom.us/download?elqTrackId=f1e4da7ee4de4f458fa5e60e3996d08a">ZOOM</a> prior to your virtual session</p>
+                </div>                
+                  <div class="showAtDate event_info bottom_event" data-limit="2018-07-19T12:00:00" style="padding-bottom: 0">
+                    <p>Wednesday, July 18, 12:00 to 1:00 p.m.<br>
+                       Click <a href="https://regis.zoom.us/j/100937697?elqTrackId=39e1b71c30c444da97c476e8beeab3c8">here</a> to join this session virtually via <a href="https://zoom.us/download?elqTrackId=0a7c751bd9d240d1b9dd7bbca69bd39f">ZOOM</a>.
+                     </p>
+                  </div>
+                
+              </div><!-- panel-body -->
+                </div><!-- end collapse1 -->
+                </div><!-- end panel panel-default -->
+                 </div><!-- End Health Care Panel -->
+                 <div class="panel-group">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapse6" class="panelLink"><img class="openClose" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Bdc7cc374-e71a-40e2-9f4b-a5622245548c%7D_arrow-circle-o-down.png" alt="open/close">Sciences &amp; Craft Brewing</a>
+                    </h4>  
+                  </div>
+                  <div id="collapse6" class="panel-collapse collapse">
+                    <div class="panel-body">
+                <div class="event_info"><h5>All times listed are for the mountain time zone.</h5></div>   
+                <!-- <div class="showAtDate event_info bottom_event" data-limit="2018-05-19T12:30:00">
+                    <h5>No sciences or craft brewing events currently scheduled.</h5>
+                    <p>Please check back soon!
+                    </p>
+                  </div> -->
+                <div class="event_info" style="padding-bottom: 12px; padding-top: 15px;">                  
+                  <div class="event_info">
+                    </div>
+                    <h5>Please RSVP for ONE of the following dates:</h5>
+                  </div>  
+                     <h5 style="font-weight: bold">M.S. in Biomedical Sciences</h5>
+                      <h5 style="font-weight: bold">IN-PERSON SESSIONS</h5>  
+                       <p>All sessions will be held at:<br>                      
+                       3333 Regis Boulevard<br>
+                       David Clarke Hall (Room 306)<br>
+                       Denver, CO 80221<br></p>                
+                <div class="showAtDate event_info bottom_event" data-limit="2018-07-06T12:00:00" style="padding-top: 0">
+                    <p>Thursday, July 5, 5 p.m.</p>
+                </div>
+                <div class="showAtDate event_info bottom_event" data-limit="2018-08-03T12:00:00" style="padding-bottom: 10px">
+                    <p>Thursday, August 2, 5 p.m.</p>
+                </div>
+
+                <div class="event_info" style="padding-bottom: 4px;">
+                    <h5>M.S. in Biomedical Sciences</h5>
+                    <h5>ONLINE VIRTUAL SESSION</h5>                      
+                </div>
+                
+                <div class="showAtDate event_info bottom_event" data-limit="2018-07-20T12:00:00" style="padding-top: 5px">
+                    <p >Thursday, July 19, 12 p.m. (Online)</p>
+                </div>
+                <div class="showAtDate event_info bottom_event" data-limit="2018-08-17T12:00:00" style="padding-bottom: 10px">
+                    <p>Thursday, August 16, 12 p.m. (Online)</p>
+                </div> 
+
+                <!-- <div class="event_info" style="padding-bottom: 12px; padding-top: 15px;">
+                  <h5>Certificate in Applied Craft Brewing</h5>
+                  <h5 style="margin-top: 5px;">Please RSVP for the following date:</h5>
+                </div>
+                <div class="showAtDate event_info bottom_event" data-limit="2017-12-14T12:00:00">                  
+                  <p>Wednesday, Dec. 13, 6 - 7 p.m. <br>
+                     3333 Regis Boulevard<br>
+                     Clarke Hall, Rm 307<br>
+                     Denver, CO 80221</p>
+                  <p>                    
+                </div>    -->
+
+              </div><!-- panel-body -->
+                </div><!-- end collapse1 -->
+                </div><!-- end panel panel-default -->
+              </div><!-- End Sciences and Craft Brewing Panel -->
+              <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse7" class="panelLink"><img class="openClose" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Bdc7cc374-e71a-40e2-9f4b-a5622245548c%7D_arrow-circle-o-down.png" alt="open/close">Financing Your Education</a>
+                  </h4>  
+                </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                  <div class="panel-body">
+                <!-- <div class="showAtDate event_info bottom_event" data-limit="2018-05-19T12:30:00">
+                  <h5>No Financing Your Education information sessions currently scheduled.</h5>
+                  <p>Please check back soon!
+                  </p>
+                </div> -->
+                <div class="showAtDate event_info bottom_event" data-limit="2018-07-19T01:00:00">
+                  <h5>Financing Your Graduate Degree</h5>                  
+                  <p>Sessions will be held online (virtual) with leaders from the Office of Financial Aid and the Office of Admissions.<br>
+                    Please download <a href="https://zoom.us/download?elqTrackId=80a0170728a34c169c560a916fdb03d0" target="_blank">ZOOM</a> prior to your virtual session.
+                  </p>
+                  <h5 style="margin: 5px 0 10px;">Please RSVP for ONE of the following dates:</h5> 
+                </div>           
+                <div class="showAtDate event_info bottom_event" data-limit="2018-07-18T01:00:00">
+                    <p>Tuesday, July 17, 5:30 p.m. - 6:30 p.m.<br>
+                      Click <a href="https://regis.zoom.us/j/351823122?elqTrackId=f768d08016bd49f09d69549099531cd3" target="_blank">HERE</a> to join this session virtually via <a href="https://zoom.us/download?elqTrackId=e0be311f85ed445da705323659c8d003" target="_blank">ZOOM.</a>
+                    </p>
+                  </div>
+                  <div class="showAtDate event_info bottom_event" data-limit="2018-07-19T01:00:00">
+                    <p>Wednesday, July 18, 12:00 p.m. - 1:00 p.m.<br>
+                        Click <a href="https://regis.zoom.us/j/256918578?elqTrackId=7e63d1acd7e140f9bcb82afa43d5ec8c" target="_blank">HERE</a> to join this session virtually via <a href="https://zoom.us/download?elqTrackId=56f4f186892845f887bdbaf7669f5a68" target="_blank">ZOOM.</a>
+                    </p>
+                  </div> 
+                </div><!-- panel-body -->
+                </div><!-- end collapse1 -->
+                </div><!-- end panel panel-default -->
+                 </div><!-- End Financing Graduate Education Panel -->
+                 <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse8" class="panelLink"><img class="openClose" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Bdc7cc374-e71a-40e2-9f4b-a5622245548c%7D_arrow-circle-o-down.png" alt="open/close">Weekly Campus Tours</a>
+                  </h4>  
+                </div>
+                <div id="collapse8" class="panel-collapse collapse">
+                  <div class="panel-body">
+                 <!-- <div class="showAtDate event_info bottom_event" data-limit="2018-05-19T12:30:00">
+                  <h5>No Financing Your Education information sessions currently scheduled.</h5>
+                  <p>Please check back soon!
+                  </p>
+                </div> -->
+                <div class="showAtDate event_info bottom_event" data-limit="2018-12-01T01:00:00">                  
+                  <h5>Weekly Campus Tour:  Accelerated Evening, Online, &amp; Graduate Programs</h5>
+                    <!-- <p>
+                      All tours will be held at:<br>  
+                      3333 Regis Boulevard<br>
+                      Clarke Hall Atrium – 1st floor<br>
+                      Denver, CO 80221<br>
+                      *Parking closest to Clarke Hall is Lot 1. Campus map can be found <a href="http://www.regis.edu/Visit-Gateway/Take-A-Virtual-Tour.aspx?elqTrackId=45d2101108fb457cb6928288ea189802" target="_blank">HERE</a>.
+                    </p> -->
+                  <!-- <h5 style="margin-top: 5px;">Please RSVP for ONE of the following dates:</h5>  -->
+                  <h5 style="margin-top: 5px;">Please check back for upcoming campus tours.</h5>                   
+                  <p>
+                </div>                
+                <!-- </div> -->               
+                
+                </div><!-- panel-body -->
+                </div><!-- end collapse1 -->
+                </div><!-- end panel panel-default -->
+                 </div><!-- End Financing Graduate Education Panel -->
+                 <div class="panel-group">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapse9" class="panelLink"><img class="openClose" src="http://img03.en25.com/EloquaImages/clients/RegisEloqua14/%7Bdc7cc374-e71a-40e2-9f4b-a5622245548c%7D_arrow-circle-o-down.png" alt="open/close">Special Events</a>
+                    </h4>  
+                  </div>
+                  <div id="collapse9" class="panel-collapse collapse">
+                    <div class="panel-body">
+                <div class="event_info"><h5>All times listed are for the mountain time zone.</h5></div>
+                <!-- <div class="showAtDate event_info bottom_event" data-limit="2018-10-19T12:30:00">
+                    <h5>No special events currently scheduled.</h5>
+                    <p>Please check back soon!
+                    </p>
+                  </div> -->
+                   
+                  
+                  <div class="showAtDate event_info bottom_event" data-limit="2018-08-11T01:00:00">
+                    <h5 style="margin-top: 25px;">The Regis Pharmacy Experience – PharmD Workshops for Preparing your Application for Success</h5>
+                    <p>                       
+                       Friday, August 10, 2018  9 a.m. - 12:30 p.m.<br>
+                       Regis University<br>
+                       North West Denver Campus<br>
+                       <span style="margin-bottom: 8px; display: inline-block">Peter Claver Hall, 309</span><br>
+                       <a href="https://events.regis.edu/pharmacyexperience" target="_blank">https://events.regis.edu/pharmacyexperience</a>
+                    </p>
+                  </div>
+              </div><!-- panel-body -->
+                </div><!-- end collapse1 -->
+                </div><!-- end panel panel-default -->
+              </div><!-- End Special Events Panel -->
+            </div>
+            <!-- End panels -->
+          
+
+          
+
+            <div class="col-md-4">
+                <div class="pcat_form">
+                    <h3>Sign Me Up!</h3>
+                    <div>
+            <form method="post" name="infosessions_v160421" action="https://s1612941136.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form82 input[type=submit]');if(s){s.disabled=true;}}},100);return true;" id="form82" class="elq-form">
+                <input value="infosessions_v160421" type="hidden" name="elqFormName">
+                <input value="1612941136" type="hidden" name="elqSiteId">
+                <input name="elqCampaignId" type="hidden">
+                <div id="formElement0" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; padding: 6px 5px 9px 9px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <label for="field0" style="display: block; line-height: 150%; padding: 1px 0pt 3px; white-space: nowrap">First Name<span style="color: red !important; display: inline; float: none; font-weight: bold; margin: 0pt 0pt 0pt; padding: 0pt 0pt 0pt">*</span></label><input type="text" id="field0" name="firstName" value="<eloqua type='emailfield' syntax='First_Name___Forms1' />" style="width: 100%">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement1" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; padding: 6px 5px 9px 9px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <label for="field1" style="display: block; line-height: 150%; padding: 1px 0pt 3px; white-space: nowrap">Last Name<span style="color: red !important; display: inline; float: none; font-weight: bold; margin: 0pt 0pt 0pt; padding: 0pt 0pt 0pt">*</span></label><input type="text" id="field1" name="lastName" value="<eloqua type='emailfield' syntax='fm_FirstName__forms____Copy1' />" style="width: 100%">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement2" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; padding: 6px 5px 9px 9px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <label for="field2" style="display: block; line-height: 150%; padding: 1px 0pt 3px; white-space: nowrap">Email Address<span style="color: red !important; display: inline; float: none; font-weight: bold; margin: 0pt 0pt 0pt; padding: 0pt 0pt 0pt">*</span></label><input type="text" id="field2" name="emailAddress" value="<eloqua type='emailfield' syntax='EmailAddress' />" style="width: 100%">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement3" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; padding: 6px 5px 9px 9px">
+                      <div class="field-wrapper">
+                      </div>
+                      <div class="individual field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100 field-style" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                          <p class="field-p" style="position: relative; margin: 0px; padding: 0px">
+                            <label for="field3" class="label-position top " style="display: block; line-height: 150%; padding: 1px 0pt 3px; white-space: nowrap">
+                              What is your area of interest?
+                            </label>
+                            <select id="field3" name="areaOfInterest" class="field-size-top-large">
+                              <option value="">
+                                Please select your area of interest.
+                              </option>
+                              <option value="Business">
+                                Business
+                              </option>
+                              <option value="CIS">
+                                Computer &amp; Information Science
+                              </option>
+                              <option value="Counseling">
+                                Counseling
+                              </option>
+                              <option value="EFA">
+                                Education &amp; Fine Arts
+                              </option>                              
+                              <option value="Healthcare">
+                                Health Care
+                              </option>
+                              <option value="Science">
+                                Sciences &amp; Craft Brewing
+                              </option>
+                              <option value="Financing">
+                                Financing Your Education
+                              </option>
+                              <option value="Tours">
+                                Weekly Campus Tours
+                              </option>
+                              <option value="Events">
+                                Special Events
+                              </option>
+                            </select>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                <div id="formElement4" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; padding: 6px 5px 9px 9px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <label for="field4" style="display: block; line-height: 150%; padding: 1px 0pt 3px; white-space: nowrap">Event<span style="color: red !important; display: inline; float: none; font-weight: bold; margin: 0pt 0pt 0pt; padding: 0pt 0pt 0pt">*</span></label>
+                                <select id="field4" name="webinarSelection" style="width: 100%" onchange="changeHiddenFields()">
+                                  <option value="">First select an area of interest.</option>
+                                </select>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement5" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field5" name="hf_EventID" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement6" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field6" name="hf_elqCID" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement7" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field7" name="hf_elqLPID" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement8" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field8" name="hf_elqSLID" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement9" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field9" name="hf_Misc1" value="">
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="formElement10" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field10" name="hf_Misc2" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement11" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field11" name="hf_Date-Actual" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement12" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field12" name="hf_Date-StillTime" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement13" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field13" name="hf_Date-Reminder1" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement14" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field14" name="hf_Date-Reminder2" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement15" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field15" name="hf_Date-End" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement16" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field16" name="hf_ics" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement17" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field17" name="hf_iCal" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement18" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field18" name="hf_College" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement19" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field19" name="hf-LeadSourceOriginal" value="51ff6537-e026-e311-877a-005056b8001d">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement20" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field20" name="hf_AdmitType" value="38980113-DEA8-E011-B7AA-005056B8001D">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement21" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field21" name="hf_AnticipatedEntry" value="d744863b-fd97-e311-8524-005056b8001d">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement22" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field22" name="hf_OriginatingWebsite" value="http://events.regis.edu/infosession">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement23" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field23" name="hf_ContactID" value="<eloqua type='emailfield' syntax='fm_contactID1' />">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement24" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field24" name="hfCID1" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement25" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field25" name="hfCID2" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement26" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field26" name="hfCID3" value="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div style="left: 0px; right: 0px; top: 0px; bottom: 0px; padding: 6px 5px 9px 9px" class="sc-view form-design-field sc-static-layout sc-regular-size" id="formElement27">
+                    <div style="float: left; width: 100%; clear: both" class="field-wrapper">
+                        <div style="float: left; width: 96%; margin-right: 2%; margin-left: 2%" class="_100">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="hidden" id="field27" name="academicProgramOfInterest1" value="74e72a1e-c8e8-e211-9330-005056b8001d">
+                            </p>
+                      </div>
+                    </div>
+                </div>
+                <div id="formElement28" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; padding: 6px 5px 9px 9px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <label for="field28" style="display: block; line-height: 150%; padding: 1px 0pt 3px; white-space: nowrap">What color is the sky?</label><input type="text" id="field27" name="sky" value="" style="width: 100%"><label class="instructions" style="color: #444444; display: block; font-size: 10px; padding: 6px 0pt 3px; margin: 0px">Please answer blue above</label>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="formElement29" class="sc-view form-design-field sc-static-layout sc-regular-size" style="left: 0px; right: 0px; top: 0px; bottom: 0px; padding: 6px 5px 9px 9px">
+                    <div class="field-wrapper"></div>
+                    <div class="field-wrapper" style="float: left; width: 100%; clear: both">
+                        <div class="_100" style="float: left; width: 96%; margin-right: 2%; margin-left: 2%">
+                            <p style="position: relative; margin: 0px; padding: 0px">
+                                <input type="submit" value="RSVP" style="font-size: 100%; height: 24px; width: 100px">
+                            </p>
+                          <p class="">Don’t see your area of interest? Don’t worry, with over 150 degrees and certificates to choose from, we are sure to have something that’s right for you. <a target="_blank" href="http://info.regis.edu/general?elqTrackId=0f64bdd29a464fe683f74c7b225a9666"> LEARN MORE</a></p>
+                        </div>
+                    </div>
+                </div>
+            </form><script src="https://img03.en25.com/i/livevalidation_standalone.compressed.js" type="text/javascript">
+</script><style media="screen" type="text/css">
+.LV_validation_message{ font-weight:bold; margin: 0 0 0 5px; }
+            .LV_valid{ color:#00CC00; display:none; }
+            .LV_invalid{ color:#CC0000; font-size:10px; }
+            .LV_valid_field, input.LV_valid_field:hover, input.LV_valid_field:active, textarea.LV_valid_field:hover, textarea.LV_valid_field:active { outline: 1px solid #00CC00; }
+            .LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active, textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active { outline: 1px solid #CC0000; }
+            .showAtDate { display: none; }
+
+            </style>
+        </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+           
+ 
+ <!-- /container -->
+
+<footer role="contentinfo">
+    <span elqid="1715" elqtype="Section" class="remove-absolute" style="display: block"></span>
+    <div class="fat-footer">
+      
+        
+      <span elqid="1714" elqtype="Section" class="remove-absolute" style="display: block"></span>
+
+        <div class="container">
+            <div class="col-xs-12 col-sm-6 social">
+                <a title="facebook" target="_blank" href="https://www.facebook.com/regisuniversity?elqTrackId=d2490a18287a497a9f24464fd3f73a3c"><span aria-hidden="true" class="fa fa-facebook"></span></a>
+                <a title="twitter" target="_blank" href="https://twitter.com/regisuniversity?elqTrackId=729a4cbd3a3448988b12d3b35c80f2d8"><span aria-hidden="true" class="fa fa-twitter"></span></a>
+                <a title="linkedIn" target="_blank" href="http://www.linkedin.com/company/regis-university?elqTrackId=525aaaafa6914e73b5d63e09b8fed9d0"><span aria-hidden="true" class="fa fa-linkedin"></span></a>
+                <a title="youtube" target="_blank" href="http://www.youtube.com/regisuniversity?elqTrackId=831d181af67a4d0497fa69fba2cc729a"><span aria-hidden="true" class="fa fa-youtube"></span></a>
+                <a title="google+" target="_blank" href="https://plus.google.com/+regisuniversity?elqTrackId=36bb0ef80e4a46c4b404e3feaab7294c"><span aria-hidden="true" class="fa fa-google-plus"></span></a>
+                <a title="pinterest" target="_blank" href="http://pinterest.com/regisuniversity/?elqTrackId=d78cf5cdabd0451594b1ea9adeca774c"><span aria-hidden="true" class="fa fa-pinterest"></span></a>
+                <a title="flickr" target="_blank" href="http://www.flickr.com/people/regisuniversity/?elqTrackId=63879c96b30848cd9ecf1febfb6a03e8"><span aria-hidden="true" class="fa fa-flickr"></span></a>
+                <a title="instagram" target="_blank" href="http://instagram.com/regisuniversity?elqTrackId=59369f9276dc4073b2185e87b4a1b2ea"><span aria-hidden="true" class="fa fa-instagram"></span></a>
+            </div>
+
+            
+          <span elqid="1716" elqtype="Section" class="remove-absolute" style="display: block"></span>
+        </div>
+
+    </div>
+</footer>
+
+<!-- <script type="text/javascript" src="https://cdn.regis.edu/javascript/infosession_app.min.js"></script> -->
+ <!-- USE FOR DEV ONLY --><script type="text/javascript" src="js/infosession_app.js"></script>
+<script>
+ $(function(){
+
+    // check if there is a hash in the url
+    if ( window.location.hash != '' )
+    {
+        // remove any accordion panels that are showing (they have a class of 'in')
+        $('.collapse').removeClass('in');
+
+        // show the panel based on the hash now:
+        $(window.location.hash + '.collapse').collapse('show');
+    }
+
+});
+</script>
+
+
+
+  <!-- BEGIN MEDIACROSSING REMARKETING TAG - DO NOT MODIFY -->
+<script src="https://tags.crwdcntrl.net/c/3939/cc_af.js"></script>
+<!-- END TAG -->
+  
+<!-- start number replacer -->
+<script type="text/javascript">
+ var vs_account_id = "CA6phUfqpx8XzwNx";
+ $.getScript("//adtrack.voicestar.com/euinc/number-changer.js");
+</script>
+<!-- end ad widget -->
+ 
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(function() {
+          // Javascript to enable link to tab
+          
+          var hash = document.location.hash;
+          if (hash) {
+            console.log(hash);
+            $('.nav-tabs a[href='+hash+']').tab('show');            
+          } 
+          if (location.hash) {
+            setTimeout(function() {
+              window.scrollTo(0, 0);
+            }, 1);
+          }
+          //Change hash for page-reload
+          $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+           window.location.hash = e.target.hash;
+          });
+        });
+     </script>
+
+
+
+
+</body></html>

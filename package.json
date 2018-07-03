@@ -1,0 +1,33 @@
+{
+  "name": "infosessiontest",
+  "version": "1.0.0",
+  "description": "\"# infosession\"",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Osborn",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.2",
+    "grunt-plato": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetiboy27/infosession.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yetiboy27/infosession/issues"
+  },
+  "homepage": "https://github.com/yetiboy27/infosession#readme"
+}
