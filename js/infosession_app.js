@@ -386,7 +386,7 @@ $(window).load(function(){
 });  
 
 //--------------------------------
-
+// This section of code provided by third party, used to pull information from URL tracking strings
 var defaultHiddenFieldNameValue = ""; 
 
 function getQueryStringParamValue(strQStrParam) { 
@@ -586,7 +586,7 @@ function list(array_list)
 
 
 //--------------------------------
-
+//Form validation code provided by Eloqua
 var dom0 = document.querySelector('#form82 #field0');
     var field0 = new LiveValidation(dom0, {
       validMessage: "", onlyOnBlur: true}
