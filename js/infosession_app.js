@@ -11,7 +11,6 @@ formObject = document.forms['infosessions_v160421'];
 chooseWebinar = formObject.elements["webinarSelection"]; 
     
    // Begin Business
-
     
     if ((chooseWebinar.options[chooseWebinar.selectedIndex].value) === "International Student Information Session - 7/11/18") {
         formObject.elements["hf_EventID"].value = '3b01a7e3-835f-e811-80d2-0e7c55818694';
@@ -97,12 +96,9 @@ chooseWebinar = formObject.elements["webinarSelection"];
         formObject.elements["hf_ics"].value = '';
         formObject.elements["hf_iCal"].value = '';
         formObject.elements["hf_College"].value = '100000001';
-    }
-    
+    }    
 
-    // End Counseling, Begin Education and Fine Arts   
-
-    
+    // End Counseling, Begin Education and Fine Arts 
 
     // else if ((chooseWebinar.options[chooseWebinar.selectedIndex].value) === "M.Ed Educational Leadership (Principal Licensure) 11/1/17") {
     //     formObject.elements["hf_EventID"].value = '941f84f4-f297-e711-80cb-0a51857aa408';
@@ -121,8 +117,7 @@ chooseWebinar = formObject.elements["webinarSelection"];
     //     formObject.elements["hf_College"].value = '100000002';
     // }
 
-    // End Education and Fine Arts, Begin Health Care    
-
+    // End Education and Fine Arts, Begin Health Care   
     
     else if ((chooseWebinar.options[chooseWebinar.selectedIndex].value) === "RHCHP – BSN – Information Session - 7/23/18") {
         formObject.elements["hf_EventID"].value = '45a9e90a-443f-e811-80d2-0e7c55818694';
@@ -204,16 +199,10 @@ chooseWebinar = formObject.elements["webinarSelection"];
         formObject.elements["hf_ics"].value = '';
         formObject.elements["hf_iCal"].value = '';
         formObject.elements["hf_College"].value = '100000001';
-    }                                                                                                                        
+    }                                                                                                                      
     
-
     // End Health Care, Begin Sciences and Craft Brewing    
    
-    
-    
-    
-
-    
     else if ((chooseWebinar.options[chooseWebinar.selectedIndex].value) === "RC - Biomedical Science Information Session 7.5.18") {
         formObject.elements["hf_EventID"].value = '8f977431-6775-e811-80d9-0a27689dd954';
         formObject.elements["hf_elqCID"].value = '2985';
@@ -317,10 +306,8 @@ chooseWebinar = formObject.elements["webinarSelection"];
         formObject.elements["hf_College"].value = '100000006';
     }
 
-
     // End Financing Your Education, begin Weekly Campus Tours 
-
-     
+ 
     else if ((chooseWebinar.options[chooseWebinar.selectedIndex].value) === "Post-Trad Campus tour.12.21.17") {
         formObject.elements["hf_EventID"].value = '6a45dfe0-f3cb-e711-80cb-0e6d906c15f4';
         formObject.elements["hf_elqCID"].value = '2985';
@@ -460,16 +447,13 @@ window.onload = setCampaign;
 
 jQuery(document).ready(function(){
 
-
 //arrays for programs selection
 
 var businessSessions = [
     {display: "Please select an event", value: "no value", eventTime: "2026-04-13T12:00:00" },
     {display: "No events currently scheduled.", value: "", eventTime: "2026-04-13T12:00:00" }
     // {display: "MBA Info Session: June 13, 6 p.m.", value: "CBE MBA Info Session 6-13-2017", eventTime: "2017-06-14T12:00:00" },     
-    // {display: "Specialty Master’s Programs Info Session: June 15, 12 p.m.", value: "CBE Specialty Master's Programs Info Session 6-15-2017", eventTime: "2017-06-16T12:00:00" }    
-    
-     
+    // {display: "Specialty Master’s Programs Info Session: June 15, 12 p.m.", value: "CBE Specialty Master's Programs Info Session 6-15-2017", eventTime: "2017-06-16T12:00:00" }   
     ];
    
 var cisSessions = [
@@ -516,8 +500,7 @@ var scienceSessions = [
     {display: "M.S. Biomedical Sciences: Aug. 16, 12 p.m. Online", value: "RC - Biomedical Science Information Session 8.16.18", eventTime: "2018-08-17T12:00:00" }
     // {display: "M.S. Biomedical Sciences Dec. 14, 12 p.m.", value: "Biomed/Environmental Bio Info Session 11.16.2017", eventTime: "2017-12-15T12:00:00"},     
     // {display: "Certificate in Applied Craft Brewing Dec. 13, 6:00 p.m.", value: "Certificate in Applied Craft Brewing 12.13.2017", eventTime: "2017-12-14T12:00:00"}    
-    ];
-    
+    ];    
 
 var financingSessions = [
     {display: "Please select an event", value: "no value", eventTime: "no time" },
@@ -544,7 +527,7 @@ var noSelection = [
     ];    
 
 
-//change programs listed based on select1 and select2 selections
+//change programs listed based on field3 selections
 $("#field3").change(function () {
       
     var field3 = $("#field3").val();
@@ -598,8 +581,6 @@ function list(array_list)
       }
     });
 }
-
-
 
 });
 
